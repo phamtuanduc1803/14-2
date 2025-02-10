@@ -7,7 +7,7 @@ function main() {
     }
     let noButton = document.getElementById("no-button");
     noButton.onclick = () => {
-        if (i === listQuestion.length - 1) {
+        if (i === listQuestion.length) {
             noButton.remove()
         } else {
             noButton.innerText = listQuestion[i++];
